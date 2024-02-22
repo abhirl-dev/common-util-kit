@@ -1,0 +1,20 @@
+{
+  "name": "color-converter-test",
+  "version": "0.0.1",
+  "description": "This is used to change hex to rgba",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "hex-rgba"
+  ],
+  "author": "Independent Dev Team",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
