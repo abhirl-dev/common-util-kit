@@ -49,8 +49,8 @@ export { ConvertDate };
 
 const _monthArray = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-function _buildDate(dateTime: string | number): DateReturnProps {
-    const date: Date = new Date(dateTime);
+function _buildDate(dateTime: string | number | Date): DateReturnProps {
+    const date: Date = typeof (dateTime) === 'object' ? dateTime : new Date(dateTime);
 
     const dd = date.getDate().toString().padStart(2, "0").slice(-2);
     const mm = (date.getMonth() + 1).toString().padStart(2, "0").slice(-2);
@@ -58,7 +58,7 @@ function _buildDate(dateTime: string | number): DateReturnProps {
     const yy = date.getFullYear().toString().slice(-2);
 
     return {
-        milliseconds: date.getMilliseconds(),
+        milliseconds: date.getTime(),
         dd: dd,
         mm: mm,
         yyyy: yyyy,

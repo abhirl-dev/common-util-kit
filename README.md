@@ -1,8 +1,8 @@
-# This utility provides functions to convert color and dates between different formats in JavaScript.
+# This utility provides functions to convert color and dates between different formats in JavaScript & TypeScript.
 
 ## Date conversion
 
-- Import the common-util package into your project.
+- Import the common-utils package into your project.
 - Call the desired function from your code to convert dates as needed.
 
 ```

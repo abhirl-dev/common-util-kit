@@ -11,7 +11,7 @@ interface DateConverterProps {
      * const dateString = "1970-01-01"
      * const milliSec = 1708659189784
      */
-    timeStamp: string | number,
+    timeStamp: string | number | Date,
     format: "milliSec" | "DD-MM-YYYY" | "YYYY-MM-DD" | "DD-MM-YY" | "Mon, DD-YYYY" | "Mon DD, YYYY" | "YYYY, Mon DD" | "DD Mon, YYYY" | "Mon DD YYYY" | "Mon DD",
 };
 
