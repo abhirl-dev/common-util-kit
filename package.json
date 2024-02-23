@@ -1,6 +1,6 @@
 {
-  "name": "common-utils",
-  "version": "1.0.0",
+  "name": "common-util-kit",
+  "version": "1.1.0",
   "description": "Common utilities to ease the development.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -12,7 +12,7 @@
     "hex-rgba"
   ],
   "repository": {
-    "directory": "https://github.com/abhirl-dev/common-utils"
+    "directory": "https://github.com/abhirl-dev/common-util-kit"
   },
   "author": "Independent Dev Team",
   "license": "MIT",
