@@ -1,5 +1,5 @@
 {
-  "name": "common-converters",
+  "name": "common-utils",
   "version": "1.0.0",
   "description": "This is used to change hex to rgba",
   "main": "./dist/index.js",
