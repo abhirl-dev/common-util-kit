@@ -1,4 +1,4 @@
-import { ColorProps } from "./types.interface";
+import { ColorProps } from "../types.interface";
 
 /**
  * Color conversion utility used to convert css color properties.

@@ -1,10 +1,11 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-    format: ["cjs", "esm"],
-    entry: ["./src/index.ts"],
+    format: ["cjs"],
+    entry: ["./src",],
     dts: true,
     shims: true,
     skipNodeModulesBundle: true,
-    clean: true
+    clean: true,
+    outDir: "dist"
 });

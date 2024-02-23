@@ -1,15 +1,17 @@
 {
   "name": "common-util-kit",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Common utilities to ease the development.",
-  "main": "./dist/index.js",
+  "main": "./dist/index.d.ts",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup"
   },
   "keywords": [
-    "hex-rgba"
+    "converter",
+    "color",
+    "pubsub-pattern"
   ],
   "repository": {
     "directory": "https://github.com/abhirl-dev/common-util-kit"

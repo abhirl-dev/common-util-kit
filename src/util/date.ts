@@ -1,4 +1,4 @@
-import { DateConverterProps, DateReturnProps } from "./types.interface";
+import { DateConverterProps, DateReturnProps } from "../types.interface";
 
 class ConvertDate {
 
