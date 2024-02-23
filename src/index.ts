@@ -1,2 +1,2 @@
-export * from "./demo";
-export * from "./interface/test";
+export * from "./bin/color";
+export * from "./bin/date";

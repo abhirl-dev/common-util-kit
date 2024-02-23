@@ -1,7 +1,7 @@
 {
-  "name": "color-converter-test",
-  "version": "0.0.1",
-  "description": "This is used to change hex to rgba",
+  "name": "common-util-kit",
+  "version": "1.1.0",
+  "description": "Common utilities to ease the development.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -11,6 +11,9 @@
   "keywords": [
     "hex-rgba"
   ],
+  "repository": {
+    "directory": "https://github.com/abhirl-dev/common-util-kit"
+  },
   "author": "Independent Dev Team",
   "license": "MIT",
   "devDependencies": {
