@@ -50,3 +50,19 @@ import { pubsub } from 'common-util-kit';
 
 pubsub.publish("event", ...args);
 ```
+
+## Iterator pattern
+It provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation
+
+- Usage
+```
+import { Iterator } from 'common-util-kit';
+
+const array = [1,2,3,4,...];
+
+const iterator = new Iterator(array);
+
+while(iterator.hasNext()){
+    console.log(iterator.next());
+}
+```
