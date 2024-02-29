@@ -1,6 +1,6 @@
 {
   "name": "common-util-kit",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Common utilities to ease the development.",
   "main": "./dist/index.d.ts",
   "module": "./dist/index.mjs",
@@ -11,7 +11,8 @@
   "keywords": [
     "converter",
     "color",
-    "pubsub-pattern"
+    "pubsub-pattern",
+    "iterator-pattern"
   ],
   "repository": {
     "directory": "https://github.com/abhirl-dev/common-util-kit"
